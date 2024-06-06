@@ -6,13 +6,13 @@
 
 ### Scope
 
-This publication contains the full set of specifications...
-
-There is also an overview of the projects and motivation for the specifications.
+This publication contains the full set of specifications for the Implementation Guide regarding Pulmonary Rehabilitation (PR) referral process in primary healthcare for people with Chronic Obstructive Pulmonary Disease (COPD), according to the guideline 014/2019 from the Portuguese General Health Direction (Direção Geral da Saúde, DGS). PR access rates are low in the COPD population and improving information availability and flow can facilitate a more efficient process.
 
 ### Introduction
 
-so and so...
+PR access rates are low in the COPD population and improving information availability and flow can facilitate a more efficient process. Some barriers to patient referral include a lack of detailed knowledge about how to refer potential patients to PR and the lack of specific criteria for the referral.
+Patient referrals frequently involve numerous health institutions and various health information systems, making it essential to ensure a transparent flow of information. Promoting interoperability is necessary for effective information management across different health information systems. Systematically reviewing the relevant knowledge base and adopting standardized protocols for communication and information representation is fundamental to ensure seamless data exchange. This effort can contribute to improving the referral for a PR program in a different care context through a straightforward approach, contributing to a clearer and more efficient inter-institutional communication and
+workflow. 
 
 ### Dependencies
 
