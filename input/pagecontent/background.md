@@ -1,0 +1,32 @@
+## Pulmonary Rehabilitation
+
+Pulmonary Rehabilitation (PR) is a well-recognized comprehensive, cost-effective, and safe intervention for people with chronic respiratory conditions, such as COPD (Chronic Obstructive Pulmonary Disease). It consists of a multidisciplinary team delivering patient-tailored therapies that include exercise training, education, and behaviour change, improving physical and psychological health, and promoting long-term adherence to health-enhancing behaviors. Despite its proven benefits and recommendation by COPD management guidelines, there is high heterogeneity of outcomes and measures reported in the literature for PR – measuring different outcomes and using other measures between centres and studies hinders the benchmark of its efficacy, evidence synthesis, and marketing strategies to promote PR amongst payers, clinicians, and patients; it also prevents communication, inter-institutional and international work. 
+
+## Variable Description
+
+The guideline 014/2019 from the Portuguese General Health Direction (Direção Geral da Saúde, DGS) was analysed thoroughly regarding the PR referral decision-making process in primary care. This guideline was chosen as it is the current process in use by the national healthcare service in Portugal, thus trying to contribute to improving referrals in this context. The variables were identified, described, and then mapped to the adequate HL7-FHIR resources.
+These variables are intended to be collected and registered by the general practitioner at primary care consultation to assess PR eligibility. A FHIR Questionnaire Resource is used to convey this decision-making process, identifying the dependencies of information, and incorporating the decision branching present in the guideline. Some of the information needed in the decision process may already be available in the patient's electronic health record (EHR), which allows for an automated approach in data collection.
+The outcomes and measures present in the guideline for the referral of PR are the following:
+
+|**Outcome**       |**Description**   |**Measure**|
+| ------------- |:-------------:| -----|
+|Lung function  |Forced spirometry is the most reproducible and objective measurement of airflow obstruction post-bronchodilator (post-BD) |Spirometry – FEV1, FEV1% predicted, FVC, FEV1/FVC ratio|
+|Dyspnoea |Major symptom and cause of disability and anxiety associated with the disease, described as an increased effort to breathe, chest heaviness, or gasping. Persistent, progressive over time, worse with exercise |mMRC - modified Medical Research Council Dyspnoea Scale (1 item, scored from 0 to 4, higher scores meaning more severe dyspnoea)|
+|Quality of life |Impact of COPD in daily life and well-being |CAT - COPD Assessment Test (8 items, scored from 0 to 5, total score ranging from 0 to 40, higher scores meaning higher impact in daily life)|
+|Exacerbation history |Increase in dyspnoea, cough and/ or sputum production that worsens in <14 days, that can also present tachycardia or tachypnoea, usually associated with local and systemic inflammation caused by infection, pollution, or other damage to the airways (in the last year) |A/B - 0 or 1 moderate exacerbation (not leading to hospitalization); C/D=E - ≥2 moderate exacerbations or ≥ 1 leading to hospitalization |
+|Peripheral oxygen saturation (SpO2) |Estimate of the percentage of oxygen bound to haemoglobin in the blood |SpO2 ≥ 90% - Yes/ No |
+|Comorbidities |Comorbidity occurs when more than one disease or condition is present, often being chronic or long-term conditions |Presence of severe comorbidities - Yes/ No|
+
+For referral purposes, after a spirometrically confirmed diagnosis, it is necessary to classify disease severity according to the GOLD ABE assessment tool (updated 2023 version, whose grade "E" is equal to the grades "C" and "D" of the previous version used in the standard, GOLD ABCD). To obtain this, a history of exacerbations and one of the two measures of symptoms (mMRC or CAT) is needed:
+
+**Gold Assessment Tool** 
+
+|**Exacerbation History** |          |         |
+| :------: | :------: | :------: |
+|≥ 2 moderate exacerbations or ≥ 1 leading to hospitalization | E (previous C)  | E (previous D)|
+|0 or 1 moderate exacerbation (not leading to hospitalisation) | A | B|
+|         | **mMRC 0-1/ CAT < 10** | **mMRC ≥ 2/ CAT ≥ 10**|
+
+The flowchart for PR referral decision-making rationale derived from the recommendations of DGS is presented below, containing the variables previously described:
+
+![alt text](/Users/nadiahipolito/Downloads/fhir-master/input/images/Imagem1.jpg "Flowchart for PR referral")
