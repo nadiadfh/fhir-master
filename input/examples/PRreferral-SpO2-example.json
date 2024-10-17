@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "cfsb1722870703756",
+    "id": "SpO2_example",
     "valueQuantity": {
       "value": 91,
       "unit": "%"

@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "cfsb1722867963666",
+    "id": "CAT_score_example",
     "valueInteger": 20,
     "code": {
       "text": "CAT"

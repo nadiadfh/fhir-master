@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "cfsb1722869550199",
+    "id": "mMRC_score_example",
     "valueInteger": 2,
     "subject": {
       "reference": "cfsb1724237080279"

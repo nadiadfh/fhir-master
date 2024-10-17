@@ -46,23 +46,24 @@ workflow.
 <tbody>
 <tr class="odd">
 <td>Author</td>
-<td>zzz</td>
-<td>xxxx</td>
-<td>yyyy</td>
+<td>Nádia Hipólito</td>
+<td style="white-space: pre-line;">PhD Student in Health Data Science of MEDCIDS, Faculty of Medicine of University of Porto
+ciTechCare - Polytechnic University of Leiria</td>
+<td>nadia.hipolito@ipleiria.pt</td>
 </tr><tr class="even">
 <td>Author</td>
-<td>xxx</td>
-<td></td>
-<td>dssd</td>
+<td>Cristina Jácome</td>
+<td>CINTESIS@RISE, MEDCIDS, Faculty of Medicine of University of Porto</td>
+<td>cjacome@med.up.pt</td>
 </tr><tr class="odd">
 <td>Author</td>
-<td>asdasd</td>
-<td>asdasd</td>
-<td>asdas</td>
+<td>Rute Almeida</td>
+<td>CINTESIS@RISE, MEDCIDS, Faculty of Medicine of University of Porto</td>
+<td>rutealmeida@med.up.pt</td>
 </tr><tr class="even">
 <td>Author</td>
-<td>asdasd</td>
-<td></td>
-<td>dasda</td>
+<td>Pedro Vieira-Marques</td>
+<td>CINTESIS@RISE, MEDCIDS, Faculty of Medicine of University of Porto</td>
+<td>pmarques@med.up.pt</td>
 </tr></tbody>
 </table>

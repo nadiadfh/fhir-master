@@ -2,7 +2,7 @@
 
 {
   "resourceType": "Observation",
-  "id": "cfsb1722870201147",
+  "id": "ABC_example",
   "valueString": "B",
   "status": "final",
   "code": {

@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "cfsb1722869801967",
+    "id": "exacerbation_history_example",
     "valueInteger": 0,
     "status": "final",
     "code": {

@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "cfsb1722870096266",
+  "id": "FEV1_example",
   "valueQuantity": {
     "value": 47,
     "unit": "%"
